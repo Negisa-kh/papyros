@@ -1,0 +1,33 @@
+.container {
+  max-width: 1200px; 
+  width: 100%; 
+  margin: 0 auto; 
+  padding: 0 15px;
+  box-sizing: border-box; 
+}
+.container1 {
+  max-width: 1350px; 
+  width: 100%; 
+  box-sizing: border-box;
+}
+.glassmorphism {
+background: rgba(255, 255, 255, 0);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(1.7px);
+-webkit-backdrop-filter: blur(1.7px);
+border: 1px solid rgba(255, 255, 255, 0.34);
+}
+
+/* .glassmorphism:hover {
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.15); 
+  transform: translateY(-2px);
+} */
+
+.backgrond1{
+background: #FFFFFF;
+background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(227, 223, 253, 1) 50%, rgba(255, 255, 255, 1) 100%);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+border: 1px solid rgba(255, 255, 255, 0.34);
+}

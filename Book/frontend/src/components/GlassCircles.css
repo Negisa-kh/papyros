@@ -1,0 +1,23 @@
+@keyframes float {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(100px, -50px);
+  }
+  50% {
+    transform: translate(50px, 100px);
+  }
+  75% {
+    transform: translate(-100px, 50px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.glass-circle {
+  animation: float 20s linear infinite;
+  /* background: #9929EA; 
+  border: 1px solid #CC66DA; */
+}
